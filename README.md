@@ -1,4 +1,4 @@
-![alt text](image-3.png)
+![logo](./img/image-3.png)
 # 🛒 Micromercado LA ESPERANZA 
 
 ## 1. El proyecto
@@ -56,7 +56,7 @@ Reglas que compiten sobre el mismo elemento (<img>):
 
 ## Captura del conflicto 
 
-![alt text](image.png)
+![Descripción de la imagen](./img/image.png)
 
 
 **Analisis :** Gana .tarjeta img porque tiene 1 clase y 1 etiqueta (0,1,1) contra 0 clases y 1 etiqueta (0,0,1) de la regla general. Las clases tienen mayor peso en la especificidad que las etiquetas simples, por lo que img pierde y aparece tachada en el inspector.   
@@ -70,7 +70,7 @@ Reglas que compiten sobre el mismo elemento:
 
 ## Captura del conflicto
 
-![alt text](image-1.png)
+![Descripción de la imagen](./img/image-1.png)
 
 **Análisis:** Gana #titulo-principal porque los selectores de ID (1,0,0) superan jerárquicamente a los selectores por clase (0,1,0). No importa dónde estén declarados en la hoja de estilos; la regla con ID siempre prevalece y la clase .titulo-producto pierde quedando tachada.
 
@@ -81,7 +81,7 @@ Reglas que compiten sobre el mismo elemento:
 
 ## Captura del conflicto
 
-![alt text](image-4.png)
+![Descripción de la imagen](./img/image-4.png)
 
 **Análisis:** Gana la segunda regla (.tarjeta p con color: #27ae60). En este caso existe un empate exacto de especificidad (0,1,1) = (0,1,1). Ante una igualdad de condiciones, el navegador aplica el criterio de la cascada, donde la última regla declarada en el archivo styles.css sobreescribe a las anteriores y hace que la primera quede tachada.
 
@@ -152,11 +152,11 @@ Desbordamiento de imágenes de productos en móvil:
 ## 10. Capturas 
 
 Escritorio 
-![alt text](image-6.png)
+![Descripción de la imagen](./img/image-6.png)
 
-![alt text](image-7.png)
+![Descripción de la imagen](./img/image-7.png)
 
 
 360px de ancho 
-![alt text](image-5.png)
+![Descripción de la imagen](./img/image-5.png)
 
