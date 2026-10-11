@@ -12,23 +12,31 @@
 El proyecto está compuesto por la siguiente estructura de archivos y carpetas:
 
 ```text
-minimercado-la-esperanza/
-├── HTML/
-│   ├── index.html
-│   └── datos.html
+LA ESPERANZA/
+├── capturas/
+│   ├── conflicto1.jpg
+│   ├── conflicto2.jpg
+│   └── conflicto3.jpg
 ├── CSS/
 │   └── styles.css
+├── HTML/
+│   ├── datos.html
+│   └── index.html
 ├── imagenes/
 │   ├── compras.jpg
+│   ├── fondo.jpg
 │   ├── imagen1.jpg
-│   ├── mascota.jpg
-│   └── fondo.jpg
+│   └── mascota.jpg
+├── img/
+│   ├── image-1.png
+│   ├── image-3.png
+│   ├── image-4.png
+│   ├── image-5.png
+│   ├── image-6.png
+│   ├── image-7.png
+│   └── image.png
 ├── videos/
 │   └── video1.mp4
-├── capturas/
-│   ├── conflicto1.png
-│   ├── conflicto2.png
-│   ├── conflicto3.png
 └── README.md
 ```
 
