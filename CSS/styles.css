@@ -1,9 +1,9 @@
 :root{
-    --color-principal: rgb(210, 194, 58);
+    --color-principal: rgb(234, 182, 99);
     --color-secundario: rgb(217, 176, 72);
-    --color-acento: #c8efca;
-    --color-fondo: #f7f9e0;
-    --color-blanco: rgb(253, 247, 247);
+    --color-acento: #a95e0e;
+    --color-fondo: #e6eab7;
+    --color-blanco: rgb(240, 238, 205);
     --color-texto: #000000;
     --border-radius: 8px;
 
@@ -16,10 +16,14 @@
 
 }
 
-body{
-    font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
-    background-color: var(--color-fondo);
+    background-image: url('../imagenes/fondo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     color: var(--color-texto);
     padding: 20px;
 }
@@ -221,4 +225,42 @@ footer {
         font-size: 0.85rem;
         padding: 8px 10px;
     }
+}
+
+.tarjeta {
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.tarjeta img {
+    width: 70%;
+    height: 300px;      
+    object-fit: cover;
+    border-radius: var(--border-radius);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    margin: 0 auto 12px auto;
+    display: block;
+}
+
+.video-fondo-total {
+    position: fixed;      
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    transform: translate(-50%, -50%);
+    z-index: -1000;       
+    object-fit: cover;    
+    pointer-events: none;
+}
+
+/* video*/
+video {
+    width: 50%;
+    max-width: 400px; 
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }
