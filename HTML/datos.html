@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Lista de precios y formulario de pedidos de Minimercado La Esperanza en Piedecuesta.">
+    <title>Precios y Pedidos - Minimercado La Esperanza</title>
+    <link rel="stylesheet" href="../CSS/styles.css">
+</head>
+<body>
+
+    <!-- Encabezado y Navegación Compartida -->
+    <header>
+        <div class="logo-container">
+            <h1>Minimercado <strong>La Esperanza</strong></h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="index.html#productos">Productos</a></li>
+                <li><a href="index.html#info">Información</a></li>
+                <li><a href="index.html#opiniones">Opiniones</a></li>
+                <li><a href="datos.html">Precios y Pedidos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Contenido Principal -->
+    <main>
+        <!-- Sección 1: Tabla de Precios -->
+        <section id="precios">
+            <h2>Tabla de Precios y Categorías</h2>
+            <p>Consulta algunos de nuestros precios de referencia para la canasta familiar y productos del hogar:</p>
+            
+            <table border="1">
+                <caption>Lista de Precios - Minimercado La Esperanza</caption>
+                <thead>
+                    <tr>
+                        <th>Categoría</th>
+                        <th>Producto</th>
+                        <th>Presentación</th>
+                        <th>Precio (COP)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td rowspan="2">Abarrotes</td>
+                        <td>Arroz Diana</td>
+                        <td>Bolsa de 1 kg</td>
+                        <td>$4.500</td>
+                    </tr>
+                    <tr>
+                        <td>Aceite Girasol</td>
+                        <td>Botella 1 Litro</td>
+                        <td>$9.800</td>
+                    </tr>
+                    <tr>
+                        <td colspan="3"><strong>Promoción Especial en Aseo (Lleva 2 y ahorra)</strong></td>
+                        <td>$12.000</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Sección 2: Formulario de Pedidos -->
+        <section id="contacto">
+            <h2>Haz tu Pedido o Envíanos un Mensaje</h2>
+            <p>Completa el siguiente formulario y nos pondremos en contacto contigo lo antes posible:</p>
+            
+            <form action="#" method="POST">
+                <div>
+                    <label for="nombre">Nombre completo:</label>
+                    <input type="text" id="nombre" name="nombre" required placeholder="Tu nombre y apellido">
+                </div>
+
+                <div>
+                    <label for="telefono">Teléfono de contacto:</label>
+                    <input type="tel" id="telefono" name="telefono" required placeholder="Ej: 3001234567">
+                </div>
+
+                <div>
+                    <label for="correo">Correo electrónico:</label>
+                    <input type="email" id="correo" name="correo" placeholder="correo@ejemplo.com">
+                </div>
+
+                <div>
+                    <label for="cantidad">Cantidad aproximada de productos:</label>
+                    <input type="number" id="cantidad" name="cantidad" min="1" max="50" value="1">
+                </div>
+
+                <div>
+                    <label for="mensaje">Detalle de tu pedido o comentario:</label>
+                    <textarea id="mensaje" name="mensaje" rows="4" placeholder="Escribe aquí los productos que necesitas..."></textarea>
+                </div>
+
+                <button type="submit">Enviar Pedido</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2026 Minimercado La Esperanza - Río de Hato, Piedecuesta. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
